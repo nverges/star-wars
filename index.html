@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Star Wars mothafucka</title>
+
+	<!-- Added link to the jQuery Library -->
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+</head>
+<body>
+
+<div class="container">
+
+	
+	<div class="page-header">
+	  <h1><img src="assets/images/swlogo.png" width="10%" height="10%"><small>Try and figure out what the fuck this game does</small></h1>
+	  <!-- <img src="assets/images/swlogo.png"> -->
+	</div>
+
+	<div class="row" style="text-align: center" style="clear: all">
+	   <div class="col-sm-12">
+          <button id="rCrystal" type="button" class="btn btn-default"><img src="assets/images/yoda.jpg" alt="red crystal" width="150px" height="150px"></button>
+          <button id="bCrystal" type="button" class="btn btn-default"><img src="assets/images/obi_wan.jpg" alt="blue crystal" width="150px" height="150px"></button>
+          <button id="yCrystal" type="button" class="btn btn-default"><img src="assets/images/luke.jpg" alt="yellow crystal" width="150px" height="150px"></button>
+          <button id="gCrystal" type="button" class="btn btn-default"><img src="assets/images/lando.jpg" alt="green crystal" width="150px" height="150px"></button>
+   	   </div>
+		 <h1><small>Your Character</small></h1>
+	</div>
+
+
+	<br><br><br>
+
+
+	<div class="container">
+		<div class="row">
+		<div class="col-sm-4">
+			<div class="well" id="randomNum">
+				<p>Losses: <span id="lossCount"></span></p>
+			</div>
+			<div class="row"></div>
+		</div>
+
+
+		<div class="col-sm-4">
+			<div class="well" id="score">
+				<button id="rCrystal" type="button" class="btn btn-default"><img src="assets/images/boba_fett.jpg" alt="red crystal" width="65%" height="65%"></button>
+			</div>
+		</div>
+
+		<div class="col-sm-4">
+			<div class="well" id="totalScore">
+			<p>Wins: <span id="winCount"></span></p>
+			</div>
+		</div>
+
+	</div>
+
+
+	<div class="row" style="text-align: center">
+	  <h1><small>Your Enemies</small></h1>
+	   <div class="col-sm-12">
+          <button id="rCrystal" type="button" class="btn btn-default"><img src="assets/images/boba_fett.jpg" alt="red crystal" width="150px" height="150px"></button>
+          <button id="bCrystal" type="button" class="btn btn-default"><img src="assets/images/darth_maul.jpg" alt="blue crystal" width="150px" height="150px"></button>
+          <button id="yCrystal" type="button" class="btn btn-default"><img src="assets/images/darth_sidious.jpg" alt="yellow crystal" width="150px" height="150px"></button>
+          <button id="gCrystal" type="button" class="btn btn-default"><img src="assets/images/darth_vader.jpg" alt="green crystal" width="150px" height="150px"></button>
+   	   </div>
+		
+	</div>
+
+<!-- End Container -->
+</div>
+
+
+
+	<script src="assets/javascript/game.js"></script>
+	
+</body>
+</html>
