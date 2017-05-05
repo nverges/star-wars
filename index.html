@@ -21,14 +21,15 @@
 </head>
 <body>
 
+<!-- Main Container -->
 <div class="container">
 
-	
+	<!-- Header -->
 	<div class="page-header">
-	  <h1><img src="assets/images/swlogo.png" width="10%" height="10%"><small>Try and figure out what the fuck this game does</small></h1>
-	  <!-- <img src="assets/images/swlogo.png"> -->
+	  <h1><img src="assets/images/swlogo.png" width="10%" height="10%"><small>What the fuck does this game do again..?</small></h1>
 	</div>
 
+<!-- Your Characters at top -->
 	<div class="row" style="text-align: center" style="clear: all">
 	   <div class="col-sm-12">
           <button id="rCrystal" type="button" class="btn btn-default"><img src="assets/images/yoda.jpg" alt="red crystal" width="150px" height="150px"></button>
@@ -39,35 +40,52 @@
 		 <h1><small>Your Character</small></h1>
 	</div>
 
+	<br>
 
-	<br><br><br>
-
-
+<!-- Faceoff and attack button -->
 	<div class="container">
 		<div class="row">
-		<div class="col-sm-4">
-			<div class="well" id="randomNum">
-				<p>Losses: <span id="lossCount"></span></p>
-			</div>
-			<div class="row"></div>
-		</div>
 
+		
+		<div class="col-sm-4">
+			<div class="well" id="score">
+				<button id="rCrystal" type="button" class="btn btn-default"><img src="assets/images/boba_fett.jpg" alt="red crystal" width="65%" height="65%"></button>
+			</div>
+		</div>
+		
+		<div class="col-sm-4">
+			<div class="well" id="score">
+				<button id="attack-button" type="button" class="btn btn-default"><img src="assets/images/boba_fett.jpg" alt="red crystal" width="65%" height="65%"></button>
+			</div>
+		</div>
 
 		<div class="col-sm-4">
 			<div class="well" id="score">
 				<button id="rCrystal" type="button" class="btn btn-default"><img src="assets/images/boba_fett.jpg" alt="red crystal" width="65%" height="65%"></button>
 			</div>
 		</div>
-
-		<div class="col-sm-4">
-			<div class="well" id="totalScore">
-			<p>Wins: <span id="winCount"></span></p>
-			</div>
 		</div>
-
 	</div>
 
 
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="well" id="totalScore">
+					<p><h1 small>Wins: <span id="winCount"></small></span></p>
+				</div>
+			</div>
+
+			<div class="col-sm-6">
+				<div class="well" id="randomNum">
+					<p><h1 small>Losses: <span id="lossCount"></small></span></h1></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<!-- Enemies at bottom -->
 	<div class="row" style="text-align: center">
 	  <h1><small>Your Enemies</small></h1>
 	   <div class="col-sm-12">
@@ -76,7 +94,6 @@
           <button id="yCrystal" type="button" class="btn btn-default"><img src="assets/images/darth_sidious.jpg" alt="yellow crystal" width="150px" height="150px"></button>
           <button id="gCrystal" type="button" class="btn btn-default"><img src="assets/images/darth_vader.jpg" alt="green crystal" width="150px" height="150px"></button>
    	   </div>
-		
 	</div>
 
 <!-- End Container -->
