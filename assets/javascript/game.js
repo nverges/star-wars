@@ -1,40 +1,55 @@
-// upon clicking crystal, add value to total score counter 
 
-// user clicks red crystal
+
+// click events
+
+// Char 1
 $("#char1").on("click", function() {
-
-	// totalScore variable updates
-	totalScore = totalScore + rCrystal;    
-
-	// totalScore displayed to HTML
-    $("#chosen_char").html("<img src="assets/images/yoda.jpg" alt="chosen_char" width="150px" height="150px">");
-
-    // reset function runs
-    roundComplete();    
+    $("#chosen_char").html("<img src='assets/images/yoda.jpg' width='150px' height='150px' />");     
 });
 
-
-// blue crystal
+// Char 2
 $("#char2").on("click", function() {
-    
-	totalScore = totalScore + bCrystal;  
-
-    $("#chosen_char").html("<button class="btn btn-default"><img src="assets/images/obi_wan.jpg" alt="chosen_char" width="150px" height="150px"></button>");
-  
-    roundComplete();    
+    $("#chosen_char").html("<img src='assets/images/obi_wan.jpg' width='150px' height='150px' />");     
 });
 
-
-// yellow crystal
+// Char 3
 $("#char3").on("click", function() {
-	totalScore = totalScore + yCrystal;    
-    $("#totalScore").html("<h1>" + totalScore + "</h1>");  
-    roundComplete();    
+    $("#chosen_char").html("<img src='assets/images/luke_skywalker.jpg' width='150px' height='150px' />");     
 });
 
-// green crystal
-$("char4").on("click", function() {
-	totalScore = totalScore + gCrystal;    
-    $("#totalScore").html("<h1>" + totalScore + "</h1>");  
-    roundComplete();    
+// Char 4
+// Char 3
+$("#char4").on("click", function() {
+    $("#chosen_char").html("<img src='assets/images/lando.jpg' width='150px' height='150px' />");     
 });
+
+
+
+
+
+
+// enemy click events
+
+// Enemy 1
+$("#enemy1").on("click", function() {
+    $("#chosen_enemy").html("<img src='assets/images/boba_fett.jpg' width='150px' height='150px' />");     
+});
+
+// Enemy 2
+$("#enemy2").on("click", function() {
+    $("#chosen_enemy").html("<img src='assets/images/darth_maul.jpg' width='150px' height='150px' />");     
+});
+
+// Enemy 3
+$("#enemy3").on("click", function() {
+    $("#chosen_enemy").html("<img src='assets/images/darth_vader.jpg' width='150px' height='150px' />");     
+});
+
+// Enemy 4
+$("#enemy4").on("click", function() {
+    $("#chosen_enemy").html("<img src='assets/images/darth_sidious.jpg' width='150px' height='150px' />");     
+});
+
+
+
+

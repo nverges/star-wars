@@ -30,12 +30,12 @@
 	</div>
 
 <!-- Your Characters at top -->
-	<div class="row" style="text-align: center" style="clear: all">
+	<div class="row" style="text-align: center">
 	   <div class="col-sm-12">
-          <button id="char1" type="button" class="btn btn-default"><img src="assets/images/yoda.jpg" alt="char1" width="150px" height="150px"></button>
-          <button id="char2" type="button" class="btn btn-default"><img src="assets/images/obi_wan.jpg" alt="char2" width="150px" height="150px"></button>
-          <button id="char3" type="button" class="btn btn-default"><img src="assets/images/luke.jpg" alt="char3" width="150px" height="150px"></button>
-          <button id="char4" type="button" class="btn btn-default"><img src="assets/images/lando.jpg" alt="char4" width="150px" height="150px"></button>
+          <button type="button" class="btn btn-default" id="char1"><img src="assets/images/yoda.jpg" alt="char1" width="150px" height="150px"></button>
+          <button type="button" class="btn btn-default" id="char2"><img src="assets/images/obi_wan.jpg" alt="char2" width="150px" height="150px"></button>
+          <button type="button" class="btn btn-default" id="char3"><img src="assets/images/luke.jpg" alt="char3" width="150px" height="150px"></button>
+          <button type="button" class="btn btn-default" id="char4"><img src="assets/images/lando.jpg" alt="char4" width="150px" height="150px"></button>
    	   </div>
 		 <h1><small>Your Character</small></h1>
 	</div>
@@ -44,32 +44,32 @@
 
 <!-- Faceoff and attack button -->
 	<div class="container">
-		<div class="row" style="text-align: center" style="clear: all">
+		<div class="row" style="text-align: center">
 			 <div class="col-sm-12">
-				<div id="enemies">
+				<div id="battle">
 					<button type="button" class="btn btn-default btn-danger" id="enemy-damage">Your Enemy's Damage</button>
 				        <button type="button" class="btn btn-default" id="chosen_char"><img src="assets/images/yoda.jpg" alt="chosen_char" width="150px" height="150px"></button>
 		         		<button type="button" class="btn btn-default">Use the Force</button>
 				        <button type="button" class="btn btn-default" id="chosen_enemy" t><img src="assets/images/darth_sidious.jpg" alt="chosen_enemy" width="150px" height="150px"></button>
 					<button type="button" class="btn btn-default btn-success" id="your-damage">Your Damage</button>
 				</div>
-		   	  </div>
+		   	 </div>
 		</div>
 	</div>
 
 	<br>
 
 	<div class="container">
-		<div class="row">
-			<div class="col-sm-6">
+		<div class="row" id="scores">
+			<div class="col-sm-2">
 				<div class="well" id="totalScore">
-					<p><h1 small>Wins: <span id="winCount"></small></span></p>
+					<p><h4 small>Wins: <span id="winCount"></small></span></p></h4>
 				</div>
 			</div>
 
-			<div class="col-sm-6">
+			<div class="col-sm-2">
 				<div class="well" id="randomNum">
-					<p><h1 small>Losses: <span id="lossCount"></small></span></h1></p>
+					<p><h4 small>Losses: <span id="lossCount"></small></span></p></h4>
 				</div>
 			</div>
 		</div>
@@ -80,10 +80,10 @@
 	<div class="row" style="text-align: center">
 	  <h1><small>Your Enemies</small></h1>
 	   <div class="col-sm-12">
-          <button id="rCrystal" type="button" class="btn btn-default"><img src="assets/images/boba_fett.jpg" alt="red crystal" width="150px" height="150px"></button>
-          <button id="bCrystal" type="button" class="btn btn-default"><img src="assets/images/darth_maul.jpg" alt="blue crystal" width="150px" height="150px"></button>
-          <button id="yCrystal" type="button" class="btn btn-default"><img src="assets/images/darth_vader.jpg" alt="yellow crystal" width="150px" height="150px"></button>
-          <button id="gCrystal" type="button" class="btn btn-default"><img src="assets/images/darth_sidious.jpg" alt="green crystal" width="150px" height="150px"></button>
+          <button type="button" class="btn btn-default" id="enemy1"><img src="assets/images/boba_fett.jpg" alt="red crystal" width="150px" height="150px"></button>
+          <button type="button" class="btn btn-default" id="enemy2"><img src="assets/images/darth_maul.jpg" alt="blue crystal" width="150px" height="150px"></button>
+          <button type="button" class="btn btn-default" id="enemy3"><img src="assets/images/darth_vader.jpg" alt="yellow crystal" width="150px" height="150px"></button>
+          <button type="button" class="btn btn-default" id="enemy4"><img src="assets/images/darth_sidious.jpg" alt="green crystal" width="150px" height="150px"></button>
    	   </div>
 	</div>
 

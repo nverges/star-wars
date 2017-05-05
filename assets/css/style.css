@@ -6,10 +6,6 @@ body {
 	float: left;
 }*/
 
-#enemy-damage {
-	clear: all;
-}
-
-#your-damage {
-	clear: all;
+#scores {
+	text-align: center;
 }
