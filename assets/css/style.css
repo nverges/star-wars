@@ -1,3 +1,15 @@
 body {
 	background-image: url("swars2.jpg");
 }
+
+/*#enemies {
+	float: left;
+}*/
+
+#enemy-damage {
+	clear: all;
+}
+
+#your-damage {
+	clear: all;
+}

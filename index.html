@@ -25,8 +25,8 @@
 <div class="container">
 
 	<!-- Header -->
-	<div class="page-header">
-	  <h1><img src="assets/images/swlogo.png" width="10%" height="10%"><small>What the fuck does this game do again..?</small></h1>
+	<div class="page-header" id="page-header">
+	  <h1><img src="assets/images/swlogo.png" width="10%" height="10%"><small> ...what the fuck does this game do again..?</small></h1>
 	</div>
 
 <!-- Your Characters at top -->
@@ -46,34 +46,18 @@
 	<div class="container">
 		<div class="row" style="text-align: center" style="clear: all">
 			 <div class="col-sm-12">
-		          <button id="chosen_char" type="button" class="btn btn-default"><img src="assets/images/yoda.jpg" alt="chosen_char" width="150px" height="150px"></button>
-		          <button type="button" class="btn btn-default">Use the Force</button>
-		          <button id="chosen_enemy" type="button" class="btn btn-default"><img src="assets/images/darth_vader.jpg" alt="chosen_enemy" width="150px" height="150px"></button>
+				<div id="enemies">
+					<button type="button" class="btn btn-default btn-danger" id="enemy-damage">Your Enemy's Damage</button>
+				        <button type="button" class="btn btn-default" id="chosen_char"><img src="assets/images/yoda.jpg" alt="chosen_char" width="150px" height="150px"></button>
+		         		<button type="button" class="btn btn-default">Use the Force</button>
+				        <button type="button" class="btn btn-default" id="chosen_enemy" t><img src="assets/images/darth_sidious.jpg" alt="chosen_enemy" width="150px" height="150px"></button>
+					<button type="button" class="btn btn-default btn-success" id="your-damage">Your Damage</button>
+				</div>
 		   	  </div>
-
-
-			<!-- <div class="col-sm-4">
-				<div class="well" id="score">
-					<button id="rCrystal" type="button" class="btn btn-default"><img src="assets/images/boba_fett.jpg" alt="red crystal" width="65%" height="65%"></button>
-				</div>
-			</div>
-			
-			<div class="col-sm-4">
-				<div class="well" id="score">
-					<button id="attack-button" type="button" class="btn btn-default"><img src="assets/images/boba_fett.jpg" alt="red crystal" width="65%" height="65%"></button>
-				</div>
-			</div>
-
-			<div class="col-sm-4">
-				<div class="well" id="score">
-					<button id="rCrystal" type="button" class="btn btn-default"><img src="assets/images/boba_fett.jpg" alt="red crystal" width="65%" height="65%"></button>
-				</div>
-			</div> -->
 		</div>
 	</div>
 
-	<br><br>
-
+	<br>
 
 	<div class="container">
 		<div class="row">
@@ -98,12 +82,16 @@
 	   <div class="col-sm-12">
           <button id="rCrystal" type="button" class="btn btn-default"><img src="assets/images/boba_fett.jpg" alt="red crystal" width="150px" height="150px"></button>
           <button id="bCrystal" type="button" class="btn btn-default"><img src="assets/images/darth_maul.jpg" alt="blue crystal" width="150px" height="150px"></button>
-          <button id="yCrystal" type="button" class="btn btn-default"><img src="assets/images/darth_sidious.jpg" alt="yellow crystal" width="150px" height="150px"></button>
-          <button id="gCrystal" type="button" class="btn btn-default"><img src="assets/images/darth_vader.jpg" alt="green crystal" width="150px" height="150px"></button>
+          <button id="yCrystal" type="button" class="btn btn-default"><img src="assets/images/darth_vader.jpg" alt="yellow crystal" width="150px" height="150px"></button>
+          <button id="gCrystal" type="button" class="btn btn-default"><img src="assets/images/darth_sidious.jpg" alt="green crystal" width="150px" height="150px"></button>
    	   </div>
 	</div>
 
 <!-- End Container -->
+</div>
+
+<div class="page-footer">
+  <h1>Star Wars Battle <small> Nick Verges - UA Coding Bootcamp - April 2017</small></h1>
 </div>
 
 
