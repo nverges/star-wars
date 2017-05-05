@@ -24,7 +24,14 @@ body {
 	margin-left: 250px;
 	font-color: green;*/
 }
+/*#chosen_enemy {
+	float: left;
+}
 
+#your_damage {
+	clear: all;
+}
+*/
 #enemies {
 	text-align: right;
 	margin-right: 250px;
