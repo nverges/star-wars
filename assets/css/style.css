@@ -1,11 +1,37 @@
 body {
-	background-image: url("swars2.jpg");
+	background-image: url("swars4.jpg");
+	font-family: 'Anton', sans-serif;
+
 }
 
-/*#enemies {
-	float: left;
-}*/
+#header_font {
+		color: white;
+		font-size: 24px;
+}
+
+.body_font {
+	color: white;
+	font-size: 24px;
+}
+
+#character {
+
+	text-align: right;
+	margin-right: 250px;
+	font-color: red;
+
+/*	text-align: left;
+	margin-left: 250px;
+	font-color: green;*/
+}
+
+#enemies {
+	text-align: right;
+	margin-right: 250px;
+	font-color: red;
+}
 
 #scores {
 	text-align: center;
 }
+

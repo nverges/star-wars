@@ -18,7 +18,6 @@ $("#char3").on("click", function() {
 });
 
 // Char 4
-// Char 3
 $("#char4").on("click", function() {
     $("#chosen_char").html("<img src='assets/images/lando.jpg' width='150px' height='150px' />");     
 });

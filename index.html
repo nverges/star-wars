@@ -17,6 +17,8 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 	
 </head>
 <body>
@@ -26,7 +28,7 @@
 
 	<!-- Header -->
 	<div class="page-header" id="page-header">
-	  <h1><img src="assets/images/swlogo.png" width="10%" height="10%"><small> ...what the fuck does this game do again..?</small></h1>
+	  <h1 id="header_font"><img src="assets/images/swlogo.png" width="10%" height="10%"> ...what the fuck does this game do again..?</h1>
 	</div>
 
 <!-- Your Characters at top -->
@@ -37,7 +39,7 @@
           <button type="button" class="btn btn-default" id="char3"><img src="assets/images/luke.jpg" alt="char3" width="150px" height="150px"></button>
           <button type="button" class="btn btn-default" id="char4"><img src="assets/images/lando.jpg" alt="char4" width="150px" height="150px"></button>
    	   </div>
-		 <h1><small>Your Character</small></h1>
+		 <h1 class="body_font" id="character">Your Character</h1>
 	</div>
 
 	<br>
@@ -60,7 +62,7 @@
 	<br>
 
 	<div class="container">
-		<div class="row" id="scores">
+		<div class="row" style="text-align: center">
 			<div class="col-sm-2">
 				<div class="well" id="totalScore">
 					<p><h4 small>Wins: <span id="winCount"></small></span></p></h4>
@@ -78,7 +80,7 @@
 
 <!-- Enemies at bottom -->
 	<div class="row" style="text-align: center">
-	  <h1><small>Your Enemies</small></h1>
+	  <h1 class="body_font" id="enemies"> Your Enemies</h1>
 	   <div class="col-sm-12">
           <button type="button" class="btn btn-default" id="enemy1"><img src="assets/images/boba_fett.jpg" alt="red crystal" width="150px" height="150px"></button>
           <button type="button" class="btn btn-default" id="enemy2"><img src="assets/images/darth_maul.jpg" alt="blue crystal" width="150px" height="150px"></button>
