@@ -12,8 +12,8 @@ var player3dmg;
 var player4dmg;
 
 // player Counter Attack Power
-var playerCA;
-var playerCAarr = [];
+var playerCA = [];
+var playerCarray = ["first", "second", "third", "fourth", "fifth"];
 var player1CA;
 var player2CA;
 var player3CA;
@@ -63,7 +63,7 @@ $("#char2").on("click", function() {
 
 // Char 3
 $("#char3").on("click", function() {
-    $("#chosen_char").html("<img src='assets/images/luke_skywalker.jpg' width='150px' height='150px' />");     
+    $("#chosen_char").html("<img src='assets/images/luke.jpg' width='150px' height='150px' />");     
 });
 
 // Char 4
@@ -100,6 +100,14 @@ $("#enemy4").on("click", function() {
 
 // randomizations ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+//not functioning for loop
+// for (i=0; i<playerCarray.length, i++) {
+//     $("#your_damage").load("load",function() {
+//     playerCA = Math.floor((Math.random() * 100) + 1);
+//     $("#enemyDamages").html("<h2>Counter Attack Power: " + playerCA[i] + "</h2>");
+//     });
+// }
+// // console.log(playerCA);
 
 // randomize enemy values ////////////////////////////////////////////////////////////////////////
 
@@ -109,7 +117,7 @@ enemy1dmg = Math.floor((Math.random() * 100) + 1);
 enemy2dmg = Math.floor((Math.random() * 100) + 1);    
 enemy3dmg = Math.floor((Math.random() * 100) + 1);    
 enemy4dmg = Math.floor((Math.random() * 100) + 1);    
-$("#enemyDamages").html("<h2>Attack Power: " + enemy1dmg + " " + enemy2dmg + " " + enemy3dmg + " " + enemy4dmg + "</h2>");
+$("#enemyDamages").html("<h2>Counter Attack Power: " + enemy1dmg + " " + enemy2dmg + " " + enemy3dmg + " " + enemy4dmg + "</h2>");
 });
 
 

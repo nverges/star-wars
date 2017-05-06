@@ -1,5 +1,5 @@
 body {
-	background-image: url("swars4.jpg");
+	background-image: url("swars2.jpg");
 	font-family: 'Anton', sans-serif;
 
 }
@@ -16,13 +16,21 @@ body {
 
 #character {
 
-	text-align: right;
-	margin-right: 250px;
-	font-color: red;
-
 /*	text-align: left;
+	margin-right: 250px;
+	font-color: red;*/
+
+	text-align: left;
 	margin-left: 250px;
-	font-color: green;*/
+	font-color: green;
+}
+
+.container {
+	font-color: white;
+}
+
+h2 {
+	font-color: white;
 }
 /*#chosen_enemy {
 	float: left;
@@ -41,4 +49,6 @@ body {
 #scores {
 	text-align: center;
 }
+
+
 
